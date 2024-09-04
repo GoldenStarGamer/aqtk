@@ -1,1 +1,1 @@
-[check it out](aqtk.is-a.dev)
+[check it out](https://aqtk.is-a.dev)
