@@ -29,12 +29,12 @@ function getDownloadURL() {
     const osInfo = getOSInfo();
 
     const fileMapping = {
-        'Windows (64-bit)': 'https://example.com/windows64.zip',
-        'Linux (x86_64 (64-bit))': 'https://example.com/linux64.zip',
-        'Linux (ARM 64-bit)': 'https://example.com/linux_arm64.zip',
+        'Windows (64-bit)': 'https://drive.google.com/uc?export=download&id=1Uo92Y6dSTVkQQf1d92PL4r_iFEO6RQ_s',
+        'Linux (x86_64 (64-bit))': 'https://drive.google.com/uc?export=download&id=1JOZoTHNre3a8Yrpd_RfUOnfcQcyx-3TN',
+        'Linux (ARM 64-bit)': 'https://drive.google.com/uc?export=download&id=1gynWaQX8wajyPtflNwLTHDXZmOaqtUpB',
     };
 
-    return fileMapping[osInfo] || 'https://example.com/default.zip';
+    return fileMapping[osInfo] || '';
 }
 
 function downloadFile(url, filename) {
