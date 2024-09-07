@@ -68,3 +68,7 @@ button {
 	transform: translate(-50%, -50%);
 	z-index: 0; /* Ensures the SVG is behind the button */
 }
+.dbody
+{
+	background-color: #000;
+}
