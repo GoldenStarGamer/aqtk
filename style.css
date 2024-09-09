@@ -1,9 +1,32 @@
-.container {
+.outcontainer {
 	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly; /* Uniform spacing between buttons and container edges */
+	justify-content: space-evenly;
+	flex-wrap: wrap; /* Allow wrapping */
 	height: 79vh;
+}
+
+.incontainer
+{
+	position: relative;
+	height: fit-content;
+	z-index: 2;
+	position: relative;
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;
+	z-index: 1;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.break
+{
+	flex-basis: 100%;
+	height: 1vh;
 }
 
 .title {
@@ -16,13 +39,6 @@
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	border-bottom: 0px solid var(--nc-bg-2);
-}
-
-button {
-	padding: 10px;
-	font-size: 16px;
-	z-index: 1; /* Ensures the button is above the SVG */
-	background: rgba(255, 255, 255, 0.8); /* Optional: Add a slight background to the button */
 }
 
 /* Add a fixed position text block at the top */
