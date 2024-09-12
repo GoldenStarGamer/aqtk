@@ -52,10 +52,6 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     downloadFile(downloadUrl, filename);
 });
 
-document.getElementById("discord").addEventListener("click", function() {
-	window.location.href = "https://discord.gg/8HnwPYQMM3";
-});
-
 document.getElementById("code").addEventListener("click", function() {
 	window.location.href = "https://gitlab.com/grstarman/ProjectBadBot";
 });
