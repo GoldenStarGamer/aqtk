@@ -3,7 +3,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 });
 
 document.getElementById("code").addEventListener("click", function() {
-	window.location.href = "https://gitlab.com/grstarman/ProjectBadBot";
+	window.location.href = "https://gitlab.com/arqitek/pbb/ProjectBadBot";
 });
 
 document.getElementById("fdev").addEventListener("click" , function() {
