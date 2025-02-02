@@ -8,5 +8,5 @@ document.getElementById("pbb").addEventListener("click", function() {
 
 document.getElementById("discord").addEventListener("click", () =>
 
-	window.location.href = "https://discord.gg/8HnwPYQMM3"
+	window.location.href = "https://discord.gg/QTUURzPqYa"
 );
