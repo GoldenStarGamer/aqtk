@@ -14,13 +14,13 @@ function getDownloadLink() {
     const platform = navigator.userAgent.toLowerCase();
 
     if (platform.includes("win")) {
-        return "https://drive.google.com/uc?id=1lwmEeyp5jfmYTtLKI9h-AS4uukiXa9n3";
+        return "https://drive.google.com/uc?id=1fB-AleSuIZxwTZ4bMQfadGFXZgerut76";
     } else if (platform.includes("linux")) {
         // Check for ARM64
         if (platform.includes("arm64")) {
-            return "https://drive.google.com/uc?id=1jSD3R_RBeYxhEaVYMYZP71SKGzS85cdf";
+            return "https://drive.google.com/uc?id=1-zj5WGS-piL6dy0HAJfr0bhZr35pB70o";
         }
-        return "https://drive.google.com/uc?id=1PtcMTSPBO_Ekb-IVF18vAScjemueuFsf";
+        return "https://drive.google.com/uc?id=1trp8TPGjOlhKZ4MiTchlaFqIX-Uv_Bvd";
     } else {
         throw Error("PLATFORM NOT SUPPORTED");
     }
