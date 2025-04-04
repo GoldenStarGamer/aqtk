@@ -2,11 +2,8 @@ if (!firstImpression()) {
 	document.getElementById("welcome").textContent="Welcome Back";
 }
 
-document.getElementById("pbb").addEventListener("click", function() {
-	window.location.href="pbb/";
-});
+function linkbtn(id:String, link:String) {
+  document.getElementById(id).addEventListener("click", () => window.location.href=link
 
-document.getElementById("discord").addEventListener("click", () =>
-
-	window.location.href = "https://discord.gg/QTUURzPqYa"
-);
+linkbtn("discord", "https://discord.gg/QTUURzPqYa")
+linkbtn("peth", "peth/")
