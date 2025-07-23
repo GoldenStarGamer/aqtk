@@ -24,3 +24,19 @@ h1, h2, h3
 {
 	border-bottom: 0px solid black;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: none; /* override 750px limit */
+    width: 100%;
+    min-height: 100vh; /* ensures full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* optional: center vertically */
+}
