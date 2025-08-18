@@ -1,6 +1,3 @@
-User-agent : *
-Disallow: /google9cdd00b0df27399a.html
-
 User-agent: *
 Allow: /
 
